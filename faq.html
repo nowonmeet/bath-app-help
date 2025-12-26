@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>よくある質問 - お風呂キャンセル界隈</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .faq-item {
+            margin-bottom: 24px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 16px;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .question {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .question::before {
+            content: "Q.";
+            font-weight: 900;
+            margin-right: 8px;
+            color: var(--accent-color);
+        }
+
+        .answer {
+            padding-left: 24px;
+            line-height: applied;
+        }
+
+        .nav-link {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>よくある質問</h1>
+            <a href="index.html" class="nav-link">← 機種変更ガイドに戻る</a>
+        </header>
+
+        <div class="card">
+            <h2>バックアップと復元について</h2>
+
+            <div class="faq-item">
+                <div class="question">推しの画像もバックアップされますか？</div>
+                <div class="answer">
+                    いいえ、データの容量を軽くするため、<strong>画像データはバックアップに含まれません</strong>。<br>
+                    新しいスマホでデータを復元した後、お手数ですが推し設定画面から再度画像を設定してください。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">iPhoneとAndroidの間でデータ移行できますか？</div>
+                <div class="answer">
+                    はい、可能です。iPhoneからAndroid、AndroidからiPhoneのどちらでも、同じ手順（データを保存→メールで送信→新しいスマホで読み込み）でデータを引き継ぐことができます。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">データが復元できません</div>
+                <div class="answer">
+                    保存したバックアップファイルが壊れている可能性があります。<br>
+                    もう一度、古いスマホで「データを保存」し直し、メールで送り直してみてください。<br>
+                    また、ファイルを選択する際は、標準の「ファイル」アプリなどから確実に選択してください。
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>プレミアムプランについて</h2>
+
+            <div class="faq-item">
+                <div class="question">機種変更後もプレミアムプランは使えますか？</div>
+                <div class="answer">
+                    はい、同じApple ID / Googleアカウントを使用していれば、追加料金なしで継続して利用できます。<br>
+                    アプリ内のプレミアムプラン案内画面（設定 > プレミアムプラン）の下にある<strong>「購入を復元する」</strong>ボタンを押してください。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">iPhoneからAndroid（または逆）に変えた場合、プレミアムプランはどうなりますか？</div>
+                <div class="answer">
+                    残念ながら、OSが異なる場合は購入情報を引き継ぐことができません（AppleとGoogleで決済システムが異なるため）。<br>
+                    新しいスマホで再度ご加入いただく必要があります。ご了承ください。
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">推しを複数人登録できますか？</div>
+                <div class="answer">
+                    無料版では<strong>1名のみ</strong>登録可能です。<br>
+                    プレミアムプランにご加入いただくと、<strong>無制限</strong>に推しを登録できるようになり、気分に合わせて切り替えることができます。
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>機能について</h2>
+
+            <div class="faq-item">
+                <div class="question">通知のタイミングを細かく変えたいです</div>
+                <div class="answer">
+                    設定画面の「通知設定」から「通知パターン」を選ぶことで変更できます。<br>
+                    <ul>
+                        <li><strong>毎日同じ時間</strong>: 毎日決まった時間に通知します。</li>
+                        <li><strong>平日/休日で分ける</strong>: 平日（月〜金）と休日（土日）で時間を変えられます。</li>
+                        <li><strong>曜日ごとに設定</strong>: 月曜日から日曜日まで、曜日ごとに個別に時間を設定できます。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">その他・ご要望・不具合報告</div>
+                <div class="answer">
+                    アプリ内の設定画面にある<strong>「ご意見をお聞かせください」</strong>フォームからお送りください。<br>
+                    開発者が直接確認し、今後の改善の参考にさせていただきます！
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="question">パスワード（PIN）を忘れました</div>
+                <div class="answer">
+                    セキュリティの観点から、パスワードの確認やリセット機能は設けていません。<br>
+                    どうしても思い出せない場合は、一度アプリを削除して再インストールする必要があります（その場合、バックアップしていない記録データは消えてしまいますのでご注意ください）。
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2025 お風呂記録
+        </footer>
+    </div>
+</body>
+
+</html>
